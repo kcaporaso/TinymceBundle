@@ -9,4 +9,8 @@ use Symfony\Component\HttpKernel\Bundle\Bundle;
  */
 class StfalconTinymceBundle extends Bundle
 {
+  public function getContainerExtension()
+    {
+        return new UnconventionalExtensionClass();
+    }
 }
