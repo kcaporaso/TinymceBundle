@@ -56,6 +56,6 @@ class StfalconTinymceExtension extends Extension
      */
     public function getAlias(): string
     {
-        return 'stfalcon_tinymce';
+        return 'stfalcon_tinymce_1';
     }
 }
