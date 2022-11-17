@@ -19,7 +19,7 @@ class Configuration implements ConfigurationInterface
     {
         $defaults = $this->getTinymceDefaults();
 
-        $treeBuilder = new TreeBuilder('stfalcon_tinymce');
+        $treeBuilder = new TreeBuilder('stfalcon_tinymce_1');
 
         return $treeBuilder
             ->getRootNode()
